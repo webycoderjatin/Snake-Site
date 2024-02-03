@@ -139,6 +139,92 @@ height: auto;
     color: #FEDC45;
 }
 
+.about{
+    margin-top: 50px;
+}
+
+.about h1{
+    font-size: 4vw;
+    text-align: center;
+    border-bottom: 4px solid #FEDC45;
+}
+.about {
+    margin: 0px 200px;
+}
+
+.about .sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    box-sizing: border-box;
+}
+
+.about .sec h2{
+    font-size: 2.5vw;
+}
+.about .sec span{
+    width: 50%;
+}
+
+
+
+.about .sec span p{
+    text-align: justify;
+}
+.about .sec3 li::marker{
+    color: #FEDC45;
+    font-size: 20px;
+   
+}
+
+
+
+.about .sec3 li{
+padding-top: 30px;
+    font-weight: bolder;
+}
+
+.about .sec2{
+    flex-direction: row-reverse;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #3f3f3f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+footer .links{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style: none;
+   width: 100%;
+   padding: 40px 0px;
+
+}
+
+footer .links li{
+    padding:10px 0px ;
+}
+
+footer p{
+    color: white;
+    padding-bottom: 10px;
+}
+
+footer span li{
+    color: white;
+}
+
+
+
+
 @media screen and (max-width: 715px){
 
     .active{
