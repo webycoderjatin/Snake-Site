@@ -4,6 +4,7 @@
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     color: #3f3f3f;
+    text-decoration: none;
 }
 body {
     font-size: 16px; /* Set a base font size for the body */
@@ -38,7 +39,7 @@ nav ul i{
     
 }
 
-.active{
+.active2{
     background-color: #3f3f3f;
     color: #FEDC45;
     border-radius: 10px;
@@ -155,9 +156,10 @@ height: auto;
     font-size: 4vw;
     text-align: center;
     border-bottom: 4px solid #FEDC45;
+    margin: 5vw 3vw ;
 }
 .about {
-    margin: 0px 200px;
+    margin: 0px 2vw;
 }
 
 .about .sec{
@@ -196,6 +198,7 @@ padding-top: 30px;
 .about .sec2{
     flex-direction: row-reverse;
 }
+
 
 footer{
     margin-top: 100px;
@@ -306,11 +309,45 @@ footer span li{
 
 
 @media screen and(max-width:925px) {
+    .hero{
+        margin-bottom: 5vw;
+    }
+
+    footer span li{
+        font-size: 0.2px;
+    }    
+
     .hero .right h1{
         font-size: 0vw;
     }
 
     .hero .right .subscribe{
         width: 10vw;
+    }
+}
+
+@media screen and (max-width:635px){
+    .about .sec h2{
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width:558px){
+
+    .about .sec h2{
+        font-size: 4vw;
+    }
+    .about .sec{
+        flex-direction: column-reverse;
+        /* width: 80%; */
+    }
+    .about .sec span{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:545px){
+    .about h1{
+        font-size: 7vw;
     }
 }
